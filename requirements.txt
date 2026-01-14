@@ -1,0 +1,12 @@
+fastapi==0.116.2
+uvicorn==0.36.0
+SQLAlchemy==2.0.43
+psycopg2==2.9.10           # if using PostgreSQL
+python-dotenv==1.1.1
+python-jose==3.5.0          # for JWT
+passlib[bcrypt]==1.7.4      # for password hashing
+email-validator==2.3.0      # if you validate emails
+anyio==4.10.0               # FastAPI dependency
+typing-extensions==4.15.0   # FastAPI dependency
+PyJWT==2.10.1  #For jwt
+python-multipart==0.0.20   #for image file
